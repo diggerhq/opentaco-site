@@ -48,23 +48,35 @@ const LandingPage = () => {
           data-text="opentaco"
         >
           <a
-            href="/"
+            href="https://digger.dev"
+            target="_blank"
+            rel="noopener noreferrer"
             className="font-display text-lg font-medium tracking-tight text-foreground logo-ai-hover cursor-pointer no-underline"
             data-text="digger"
           >
             digger
           </a>{" "}
-          / opentaco
+          /{" "}
+          <a
+            href="/"
+            className="font-display text-lg font-medium tracking-tight text-foreground logo-ai-hover cursor-pointer no-underline"
+          >
+            opentaco
+          </a>
         </span>
         <div className="flex gap-6">
           <a
             href="https://docs.opentaco.dev"
+            target="_blank"
+            rel="noopener noreferrer"
             className="font-sans text-sm text-muted-foreground transition-colors hover:text-foreground"
           >
             docs
           </a>
           <a
             href="https://github.com/diggerhq/digger"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-1.5 font-sans text-sm text-muted-foreground transition-colors hover:text-foreground"
           >
             <Github size={16} />
@@ -241,7 +253,9 @@ const LandingPage = () => {
           © 2026 opentaco by{" "}
           <span className="underline">
             <a
-              href="/"
+              href="https://digger.dev"
+              target="_blank"
+              rel="noopener noreferrer"
               data-text="digger"
             >
               digger
@@ -251,12 +265,16 @@ const LandingPage = () => {
         <div className="flex gap-4">
           <a
             href="https://docs.opentaco.dev"
+            target="_blank"
+            rel="noopener noreferrer"
             className="font-mono text-[13px] text-faint transition-colors hover:text-foreground"
           >
             docs
           </a>
           <a
             href="https://github.com/diggerhq/digger"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-1.5 font-mono text-[13px] text-faint transition-colors hover:text-foreground"
           >
             <Github size={14} />
