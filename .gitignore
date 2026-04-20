@@ -7,8 +7,6 @@ dist-ssr/
 *.local
 
 # Environment
-.env
-.env.local
 .env.*.local
 
 # Editor
@@ -40,3 +38,4 @@ vitest.config.ts.timestamp-*
 .cache/
 *.tsbuildinfo
 .eslintcache
+config.bat
